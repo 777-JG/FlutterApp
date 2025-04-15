@@ -1,0 +1,40 @@
+name: flutter_gymapp
+description: "Projeto em flutter para aplicativo de academia do PI"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  video_player: ^2.8.6
+  mysql1: ^0.20.0
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^3.0.0
+
+
+flutter:
+    uses-material-design: true
+    
+    assets:
+     - assets/
+
+  
+  
